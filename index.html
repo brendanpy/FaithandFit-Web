@@ -1,169 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faith & Fit - Privacy & Terms</title>
-    <style>
-        :root {
-            --bg-color: #0d121c;
-            --text-color: #e2e8f0;
-            --accent-color: #D4AF37;
-            --secondary-bg: #1a2234;
-            --text-muted: #94a3b8;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 60px;
-            padding-bottom: 40px;
-            border-bottom: 1px solid var(--secondary-bg);
-        }
-
-        h1 {
-            color: var(--accent-color);
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        .logo-text {
-            font-weight: 300;
-            color: var(--text-muted);
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            font-size: 0.9rem;
-        }
-
-        h2 {
-            color: var(--accent-color);
-            margin-top: 40px;
-            border-bottom: 1px solid var(--secondary-bg);
-            padding-bottom: 10px;
-        }
-
-        h3 {
-            color: #fff;
-            margin-top: 25px;
-        }
-
-        p, li {
-            color: var(--text-muted);
-            margin-bottom: 16px;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        .section {
-            background: var(--secondary-bg);
-            padding: 30px;
-            border-radius: 12px;
-            margin-bottom: 40px;
-        }
-
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-    </style>
+    <title>Faith & Fit - Strength for Body & Soul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
     <header>
-        <h1>Faith & Fit</h1>
-        <div class="logo-text">Strength for the Body • Peace for the Soul</div>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Faith & Fit</a>
+                <div class="nav-links">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <div class="section" id="privacy">
-        <h2>Privacy Policy</h2>
-        <p><strong>Last Updated: January 18, 2026</strong></p>
-        
-        <p>Faith & Fit ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Faith & Fit.</p>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Strength for the Body.<br>Peace for the Soul.</h1>
+                <p class="lead">The first fitness app that seamlessly integrates biblical wisdom with science-based
+                    training.</p>
+                <a href="#features" class="btn">Explore Features</a>
+            </div>
+        </section>
 
-        <h3>1. Information We Collect</h3>
-        
-        <h4>Health Data (Apple HealthKit)</h4>
-        <p>With your explicit permission, Faith & Fit integrates with Apple's HealthKit to:</p>
-        <ul>
-            <li>Read your activity data (steps, workouts, calories burned) to visualize your progress.</li>
-            <li>Write workout data (calories, duration) when you complete a session in the app.</li>
-        </ul>
-        <p><strong>Important:</strong> Your health data is processed 100% locally on your device or in your personal iCloud. We do not sell, share, or transfer your HealthKit data to any third parties or advertising platforms.</p>
-
-        <h4>Personal Information</h4>
-        <p>We may collect personal information that you voluntarily provide, such as:</p>
-        <ul>
-            <li>Profile information (Name, fitness goals, faith journey stage).</li>
-            <li>Workout preferences and constraints.</li>
-        </ul>
-
-        <h3>2. How We Use Your Information</h3>
-        <p>We use the information we collect solely to provide and improve the functionality of the app, including:</p>
-        <ul>
-            <li>Personalizing your workout plans based on your fitness level.</li>
-            <li>Curating Bible verses relevant to your journey.</li>
-            <li>Tracking your consistency and progress.</li>
-        </ul>
-
-        <h3>3. Data Storage & Security</h3>
-        <p>Faith & Fit is designed with privacy first. Your data is stored:</p>
-        <ul>
-            <li>Locally on your device using SwiftData and UserDefaults.</li>
-            <li>Synced securely via your personal iCloud account (if enabled).</li>
-        </ul>
-        <p>We do not maintain external servers that store your personal health data.</p>
-    </div>
-
-    <div class="section" id="terms">
-        <h2>Terms of Service</h2>
-        
-        <h3>1. Agreement to Terms</h3>
-        <p>By accessing or using Faith & Fit, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service.</p>
-
-        <h3>2. Medical Disclaimer</h3>
-        <p>Faith & Fit provides fitness and wellness information for educational and spiritual purposes only. We are not a medical organization. You should consult with your physician before beginning any new fitness or nutrition program, especially if you have pre-existing health conditions.</p>
-        <p>By using the app, you affirm that you are in good physical condition and have no medical reason or impairment that might prevent you from using our workouts.</p>
-
-        <h3>3. Intellectual Property</h3>
-        <p>The Service and its original content (excluding user-provided data), features, and functionality are and will remain the exclusive property of Faith & Fit and its licensors.</p>
-
-        <h3>4. Subscriptions</h3>
-        <p>Some parts of the Service are billed on a subscription basis ("Subscription(s)"). You will be billed in advance on a recurring and periodic basis (such as monthly or annually). Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period.</p>
-    </div>
+        <section id="features" class="container">
+            <div class="features">
+                <div class="card">
+                    <div class="feature-icon">📖</div>
+                    <h3>Biblical Workouts</h3>
+                    <p>Training programs inspired by the 66 books of the Bible. From "Strength & Courage" (Joshua) to
+                        "Endurance" (Hebrews), every rep has a purpose.</p>
+                </div>
+                <div class="card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Spirit-First Coaching</h3>
+                    <p>AI-driven insights that adapt not just to your physical fatigue, but your spiritual needs. Get
+                        the right encouragement at the right time.</p>
+                </div>
+                <div class="card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Private by Design</h3>
+                    <p>Your journey is personal. All health and journal data is processed locally on your device or in
+                        your secure iCloud. We never sell your data.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>Contact Us: <a href="mailto:support@faithandfit.app">support@faithandfit.app</a></p>
-        <p>&copy; 2026 Faith & Fit. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="support.html">Support</a>
+            </div>
+            <p class="copyright">&copy; 2026 Faith & Fit. All rights reserved.</p>
+        </div>
     </footer>
-</div>
 
 </body>
+
 </html>
